@@ -1,0 +1,19 @@
+body {
+	padding-top: 40px;
+}
+footer ul {
+	list-style: none;
+}
+footer ul li {
+	float: left;
+	margin: 0 2px;
+	padding: 0 2px;
+}
+.navbar-inner {
+	border-radius: 0;
+	moz-border-radius: 0;
+	webkit-border-radius: 0;
+}
+.navbar-inner .container {
+	padding: 0 20px;
+}

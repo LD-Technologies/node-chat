@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title><%= page_title %></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="PI3 Image, Code Snippet or Paste, Javascript and CSS hosting. Create image galleries or host host resources.">
+	<meta name="author" content="Robert Lemon">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+</head>
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a href="#" class="brand">LD-Tech Chat</a></a>
+			<ul class="nav">
+				<li class="divider-vertical"></li>
+				<li><a href="#">Link</a></li>
+				<li class="divider-vertical"></li>
+				<li><a href="#">Link</a></li>
+				<li class="divider-vertical"></li>
+			</ul>
+			<ul class="nav pull-right">
+				<li class="divider-vertical"></li>
+				<li><a href="#">link</a></li>
+			</ul>
+		</div>
+	</div>    
+</div>
+<div class="container content">
+	<div class="span12">
+		<div class="row" id="chat-container" >
+			<div class="well" id="chat-area"></div>
+			<textarea class="input-xlarge" rows="4" id="input-text"></textarea>
+			<button id="btn-send" class="btn btn-large btn-primary">Send</button>
+		</div>
+		<div class="row" id="join-container" hidden="hidden">
+			<div class="well">
+				<form name="join-chat" class="form-horizontal">
+					<legend>Join Chat</legend>
+				<fieldset>
+					<div class="control-group">
+						<label class="control-label" for="input-nick">Nickname</label>
+						<div class="controls">
+							<input type="text" class="input-xlarge" id="input-nick" name="input-nick" maxlength="50" />
+							<button type="button" class="btn btn-primary" id="btn-join" name="btn-join">Join</button>
+							<p class="help-block error"></p>
+						</div>
+					</div>
+				</fieldset>
+				</form>
+			</div>
+		</div>
+		<div class="row" id="loading-container" hidden="hidden">
+		<h3>Loading...<small> this may take a second.</small></h3>
+		</div>
+	</div>
+</div>
+<footer>
+<div class="container">
+    &copy; Copyright 2012 Robert Lemon
+    <span class="pull-right">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </span>
+</div>
+</footer>
+<script type="text/javascript" src="/js/util.js"></script>
+<script type="text/javascript" src="/js/client.js"></script>
+</body>
+</html>
